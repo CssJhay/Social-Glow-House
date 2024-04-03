@@ -1,0 +1,46 @@
+.testimonial-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  position: relative;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: nowrap;
+  transition: transform 0.5s ease;
+}
+
+.testimonial {
+  flex: 0 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin-right: 10px;
+}
+
+.author {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
